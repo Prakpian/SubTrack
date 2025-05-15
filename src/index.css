@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+  exclude: rootscrollgutter;
+}
+
+:root {
+  --primary-color: #14ae5c;
+  --danger: #ff0021;
+}
+
+@theme {
+  --box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
